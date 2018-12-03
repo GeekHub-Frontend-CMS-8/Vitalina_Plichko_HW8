@@ -1,0 +1,108 @@
+body {
+  font-family: Lato, sans-serif; }
+
+.container {
+  text-align: center; }
+
+.banner1 {
+  background: url("../img/section1-1.png") no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .banner1 .container {
+    padding-top: 50px;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; }
+  .banner1 .text-hero {
+    color: #fff;
+    min-height: 300px; }
+    .banner1 .text-hero p {
+      padding-top: 160px;
+      color: #d4d4d4;
+      font-size: 32px;
+      font-weight: 300; }
+    .banner1 .text-hero h1 {
+      padding-top: 40px;
+      padding-bottom: 70px;
+      color: #d4d4d4;
+      font-size: 66px;
+      font-weight: 700; }
+  .banner1 .btn-a-hero {
+    text-decoration: none;
+    font-size: 23px;
+    padding: 20px 70px;
+    color: #d4d4d4;
+    border: 2px solid #d4d4d4; }
+    .banner1 .btn-a-hero:hover {
+      background: #87a0d2;
+      color: #000;
+      border: 2px solid #3b5998;
+      transition: 0.7s; }
+  .banner1 .nav a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: #d4d4d4;
+    font-size: 18px;
+    font-weight: 500; }
+    .banner1 .nav a:hover {
+      color: chocolate; }
+
+@media (max-width: 320px) {
+  .home,
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; } }
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 0; }
+  .services img {
+    padding-top: 100px; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.text-section2 {
+  display: flex;
+  max-width: 555px;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: column;
+  font-family: lato,sans-serif; }
+  .text-section2 h2 {
+    padding-top: 100px;
+    color: #222222;
+    font-size: 60px; }
+  .text-section2 p {
+    padding-bottom: 10px;
+    padding-top: 35px;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px; }
+
+.height-img {
+  height: 225px; }
+
+@media (max-width: 320px) {
+  .services {
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .text-section2 {
+    text-align: center; }
+    .text-section2 h2 {
+      font-size: 36px; } }
+
+.identity {
+  background: #fafafa;
+  background-size: cover; }
+  .identity .section3 {
+    padding: 100px 0; }
