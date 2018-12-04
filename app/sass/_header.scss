@@ -2,14 +2,18 @@
   background: url("../img/section1-1.png") no-repeat;
   background-size: cover;
   text-align: center;
+  min-height: 645px;
 
   .container{
-    padding-top: 50px;
-    max-width: 940px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    max-width: 945px;
+
+    .home{
+      padding-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+    }
   }
 
   .text-hero{
@@ -61,12 +65,38 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 415px) {
+  .banner1{
+    min-height: 850px;
+  }
+
   .home,
   .nav{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-
 }
+
+@media (max-width: 620px){
+  .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 951px ){
+.home{
+  padding: 0 20px;
+}
+}
+
+//@media (max-width: 375px) {
+//  .home,
+//  .nav{
+//    display: flex;
+//    flex-direction: column;
+//    align-items: flex-start;
+//  }
+//}
