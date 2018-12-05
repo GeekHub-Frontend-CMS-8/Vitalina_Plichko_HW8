@@ -27,7 +27,7 @@
   .text-in-the-ramka {
     display: block;
     background-color: #fff;
-    min-width: 660px;
+    //min-width: 660px;
     border: 1px solid #e8e8e8;
     padding: 40px 85px;
     q {
@@ -59,13 +59,19 @@
   }
   .element {
     .text-in-the-ramka {
-          max-width: 318px;
+      margin: 0 auto;
+      max-width: 318px;
     }
   }
 }
 
-@media (max-width: 951px){
-.element{
-  max-width: 600px;
-}
+@media (max-width: 951px) {
+  .element {
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    img {
+      margin: 0 auto;
+    }
+  }
 }

@@ -1,4 +1,4 @@
-.logos{
+.logos {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -6,22 +6,23 @@
 }
 
 @media (max-width: 415px) {
-  .logos{
+  .logos {
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    img{
+    img {
       padding: 10px 0;
     }
   }
 }
 
-@media (max-width: 680px){
-  .logos{
+@media (max-width: 680px) {
+  .logos {
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    img{
+    img {
+      margin: 0 auto;
       padding: 10px 0;
     }
   }

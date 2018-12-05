@@ -4,24 +4,22 @@
   flex-wrap: wrap;
   margin: 100px 0;
   .element {
-    /*mob*/
     justify-content: space-between;
     max-width: 375px;
     flex-direction: row;
-    /**/
     display: flex;
     text-align: left;
     padding-bottom: 50px;
-    .text-element{
+    .text-element {
       padding: 0 10px;
-      h3{
+      h3 {
         color: #222222;
         font-size: 22px;
         font-weight: 500;
         padding-bottom: 5px;
       }
     }
-    img{
+    img {
       align-content: flex-start;
       padding: 10px 10px;
     }
